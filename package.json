@@ -4,6 +4,9 @@
   "description": "Testing",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "keywords": ["testing"],
+  "author": "Damien Bullis",
+  "license": "ISC",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -19,9 +22,6 @@
     "type": "git",
     "url": "git+https://github.com/damienbullis/test.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/damienbullis/test/issues"
   },
