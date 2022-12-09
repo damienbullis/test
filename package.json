@@ -8,7 +8,7 @@
   "author": "Damien Bullis",
   "license": "MIT",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config jestconfig.json --coverage",
     "build": "tsc",
     "lint": "npx rome check ./",
     "lint:format": "npx rome format ./ --write",
