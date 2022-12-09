@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "lint": "npx rome check ./",
+    "lint": "npx rome check",
     "lint:format": "npx rome format --write",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -22,6 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/damienbullis/test.git"
   },
+  "bugs": {
+    "url": "https://github.com/damienbullis/test/issues"
+  },
+  "homepage": "https://github.com/damienbullis/test#readme",
   "dependencies": {
     "typescript": "^4.9.3"
   },
